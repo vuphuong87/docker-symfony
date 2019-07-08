@@ -1,16 +1,12 @@
-**HOW TO RUN**
+### Prepare
 
-`./docker/docker-compose build`
-`./docker/docker-compose up`
+```sh
+./docker/docker-compose build
+./docker/docker-compose up
+```
+### Your app
 
-**YOUR APP**
+```sh
+127.0.0.1:8000
+```
 
-`http://localhost:8080/`
-
-**DB**
-
-`Host: 127.0.0.1`
-`Username: root`
-`Password: root`
-`Database: db`
-`Port: 3307`
